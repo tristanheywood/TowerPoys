@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "towerpoys"
+version = "0.1.0"
+description = "Useful microsoft/PowerToys-like utilities."
+authors = ["Tristan Heywood <tristanheywood@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pillow = "^9.3.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.19.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
